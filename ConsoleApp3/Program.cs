@@ -21,8 +21,7 @@
 
                 if (eqn(x) == 0)
                 {
-                    Console.WriteLine("x = " + x);
-                    Console.WriteLine(eqn(x));
+                    Console.WriteLine("Equation Solved for x="+x);
                     break;
                 }
                 else if (prev == eqn(x))
